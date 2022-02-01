@@ -1,0 +1,281 @@
+
+.App {
+  text-align: center;
+  background-color: rgb(216, 246, 245);
+  border:  solid rgb(41, 87, 41) ;
+}
+
+#register{
+  margin-top: 80px;
+}
+
+.login_div, #register_div {
+  border: solid 2px rgb(11, 173, 11);
+  margin-left: 40vw;
+  margin-right: 40vw;
+  border-radius: 10px;
+  padding: 33px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.924);
+}
+
+.main_header_home {
+  text-align: center;
+  font-size: 70px;
+
+}
+
+.main_header_login  {
+  right: 50%;
+  left:1%;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(6, 61, 6);
+  text-shadow: green 2px 2px 3px;
+}
+
+#login_btn, #register_btn {
+  background-color:green;
+
+}
+
+#sign_up_link, #login_link{
+  color:green;
+  font-size: 20px;
+  text-underline-position: auto;
+}
+.form_header {
+    background-color: rgb(129, 194, 129);
+    font-size:20px;
+    margin-left: 100px;
+    margin-right: 500px;
+    color:green;
+}
+
+.login_header, .register_header {
+  color: green;
+  text-shadow: green 0.25px 0.25px 0.5px;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 1px;
+}
+
+.israel_images{
+ margin:10px;
+ border: rgb(46, 11, 11) solid 2px;
+ border-radius: 8px;
+  opacity: 0.75;
+  float: center;
+  width: 70%;
+  height: 150px;
+}
+.israel_deguel {
+  margin:5px;
+  border: rgb(46, 11, 11) solid 2px;
+  border-radius: 20px;
+   opacity: 0.75;
+   float: center;
+   width: 12%;
+   height: 110px;
+}
+
+.allVacations_list, .vacations_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_header_admin, #results {
+  text-align: center;
+  font-size: 50px;
+  margin-left: 2vw;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(6, 61, 6);
+  text-shadow: green 2px 2px 3px;
+}
+
+#vacations_header {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 2vw;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(6, 61, 6);
+  text-shadow: green 2px 2px 3px;
+
+}
+
+.hr_vacations {
+  width: 90vw;
+  border:solid 2px green;
+}
+
+.datePicker {
+  background-color: blank;
+  font-size: 17px;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.logout_btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: rgb(6, 61, 6);
+  text-decoration-line: underline;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logout_btn:hover {
+  cursor: pointer;
+  color: green;
+}
+
+#logo{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/1200px-Flag_of_Israel.svg.png");
+  background-size: 30px;
+  background-repeat:no-repeat ;
+  font-family: serif;
+  font-size: 20px;
+}
+
+#app_bar{
+  background-color: black;
+}
+
+.hr_login {
+  width: 85vw;
+  border:solid 1.5px green;
+  width: 60%;
+}
+
+.search_words{
+  font-family: sans-serif;
+}
+
+.hr_register {
+
+  border:solid 1.5px green;
+  width: 60%;
+
+}
+
+.delete_btn , .update_btn:hover {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.addVacation_btn{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.addVacation_btn:hover{
+  cursor: pointer;
+  box-shadow: greenyellow 0 0 2px 2px;
+  border-radius: 60%;
+}
+
+.chart_div {
+  width: 60vw;
+  height: auto;
+  text-align: center;
+  margin-left: 20vw;
+}
+
+#modal_bg {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+#close {
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  top: 25px;
+  right:550px;
+  color:rgb(11, 82, 11);
+  font-size: 23px;
+
+}
+
+#close:hover{
+  cursor: pointer;
+  box-shadow: green 0 0 2px 2px;
+  border-radius: 30%;
+}
+#form_bg{
+  background-color: rgb(177, 241, 177);
+  border:green solid 2px;
+  margin-left: 500px;
+  margin-right: 500px;
+  opacity: 0.8;
+  padding: 15px;
+}
+
+#update_form {
+  border: black solid 1px;
+  position: relative;
+  background-color: rgb(197, 237, 238);
+  opacity: 0.8;
+  margin: 3px;
+}
+
+.close_update{
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  font-weight: bold;
+}
+.close_update:hover{
+  cursor: pointer;
+  text-shadow: currentColor 1px 1px 1px;
+}
+
+.hello {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.star {
+  margin-top: 20px;
+  color:green;
+}
+
+#add_btn{
+  background-color: green;
+}
+/* 
+#card_id{
+ background-color: lawngreen;
+} */
+
+.main_header_register{
+  right: 50%;
+  left:1%;
+  text-align: center;
+  font-size: 40px;
+ 
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(6, 61, 6);
+  text-shadow: green 2px 2px 3px;
+}
+
+.logo_img_register{
+  margin:10px;
+  border: rgb(46, 11, 11) solid 2px;
+  border-radius: 8px;
+   opacity: 0.75;
+   float: center;
+   width: 50%;
+   height: 150px;
+}
